@@ -1,0 +1,16 @@
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\bin\Debug\net8.0-windows\MVCexsample.exe
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\bin\Debug\net8.0-windows\MVCexsample.deps.json
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\bin\Debug\net8.0-windows\MVCexsample.runtimeconfig.json
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\bin\Debug\net8.0-windows\MVCexsample.dll
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\bin\Debug\net8.0-windows\MVCexsample.pdb
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.Form1.resources
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.csproj.GenerateResource.cache
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.AssemblyInfoInputs.cache
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.AssemblyInfo.cs
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.csproj.CoreCompileInputs.cache
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.dll
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\refint\MVCexsample.dll
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.pdb
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\MVCexsample.genruntimeconfig.cache
+C:\Users\ushan\OneDrive\Desktop\Apiit Foundation\L4\semester_2\C#\MVCexsample\obj\Debug\net8.0-windows\ref\MVCexsample.dll
