@@ -10,20 +10,24 @@ using System.Windows.Forms;
 
 namespace Dbex
 {
-    public partial class AdditemForm : Form
+    public partial class DeleteEventForm : Form
     {
-        public AdditemForm()
+        public DeleteEventForm()
         {
             InitializeComponent();
         }
 
-        private void addevntbutton_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(EventconClass.AddEvent(eidtextBox.Text, enametextBox.Text, edestextBox.Text, edateTimePicker.Value, eloctextBox.Text));
-            //datetextBox.Text
+            MessageBox.Show(EventconClass.DeleteItem(deleteeventidtextBox.Text, deleteeventnametextBox.Text));
         }
 
-        private void BackTobutton_Click(object sender, EventArgs e)
+        private void deleteeventnametextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             MenuForm menuForm = new MenuForm();
             menuForm.Show();

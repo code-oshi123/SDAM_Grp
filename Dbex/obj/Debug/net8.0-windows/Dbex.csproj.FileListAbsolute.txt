@@ -72,3 +72,5 @@ C:\Users\ushan\OneDrive\Desktop\SDAM_Grp\Dbex\obj\Debug\net8.0-windows\Dbex.genr
 C:\Users\ushan\OneDrive\Desktop\SDAM_Grp\Dbex\obj\Debug\net8.0-windows\ref\Dbex.dll
 C:\Users\ushan\OneDrive\Desktop\SDAM_Grp\Dbex\obj\Debug\net8.0-windows\Dbex.MenuForm.resources
 C:\Users\ushan\OneDrive\Desktop\SDAM_Grp\Dbex\obj\Debug\net8.0-windows\Dbex.AdditemForm.resources
+C:\Users\ushan\OneDrive\Desktop\SDAM_Grp\Dbex\obj\Debug\net8.0-windows\Dbex.DeleteEventForm.resources
+C:\Users\ushan\OneDrive\Desktop\SDAM_Grp\Dbex\obj\Debug\net8.0-windows\Dbex.ViewEventForm.resources

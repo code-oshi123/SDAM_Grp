@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -81,6 +82,90 @@ namespace Dbex
                 return "Event added successfully";
             }
 
+        }
+
+        public static string DeleteItem(string id, string eventname)
+        {
+            if (id.Equals("") || eventname.Equals(""))
+            {
+                return "Please fill all fields";
+            }
+            try
+            {
+                Convert.ToInt32(id);
+            }
+            catch (Exception ex)
+            {
+                return "Id must be a number.";
+            }
+            //string query = "DELETE FROM eventtable WHERE id = @id AND eventname = @eventname";
+            string query = "SELECT eventname FROM eventtable WHERE id = @id";
+            conn.Open();
+            MySqlCommand cmd = new MySqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@eventname", eventname);
+            using (MySqlDataReader reader = cmd.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    string dbename = reader.GetString("eventname");
+                    conn.Close();
+                    if (dbename.Equals(eventname))
+                    {
+                        conn.Open();
+                        string query1 = "DELETE FROM eventtable WHERE id = @id AND eventname = @eventname";
+                        MySqlCommand cmd1 = new MySqlCommand(query1, conn);
+                        cmd1.Parameters.AddWithValue("@id", id);
+                        cmd1.Parameters.AddWithValue("@eventname", eventname);
+                        cmd1.ExecuteNonQuery();
+                        conn.Close();
+                        return "Event deleted successfully";
+                    }
+                    else
+                    {
+                        return "Event id and name doesn't match";
+                    }
+                }
+                conn.Close();
+                return "Event not found";
+            }
+
+        }
+
+        public static List<string> ViewEvents()
+        {
+            List<string> items = new List<string>();
+            string query = "SELECT * FROM eventtable";
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            int id = reader.GetInt32("id");
+                            string eventname = reader.GetString("eventname");
+                            string eventdate = reader.GetString("Eventdate");
+                            string eventloc = reader.GetString("eventloc");
+                            string eventdes = reader.GetString("eventdes");
+                            items.Add($"{id} | {eventname} | {eventdate} | {eventloc} | {eventdes}");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Log error or show message
+                    Debug.WriteLine($"Database error: {ex.Message}");
+                    return null;
+                }
+            }
+
+            return items;
         }
     }
 }

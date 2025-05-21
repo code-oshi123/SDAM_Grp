@@ -39,8 +39,8 @@
             edestextBox = new TextBox();
             addevntbutton = new Button();
             label6 = new Label();
-            datetextBox = new TextBox();
             edateTimePicker = new DateTimePicker();
+            BackTobutton = new Button();
             SuspendLayout();
             // 
             // label1
@@ -118,7 +118,7 @@
             // 
             // addevntbutton
             // 
-            addevntbutton.Location = new Point(337, 354);
+            addevntbutton.Location = new Point(190, 362);
             addevntbutton.Name = "addevntbutton";
             addevntbutton.Size = new Size(94, 29);
             addevntbutton.TabIndex = 10;
@@ -135,13 +135,6 @@
             label6.TabIndex = 11;
             label6.Text = "Add or Edit Event";
             // 
-            // datetextBox
-            // 
-            datetextBox.Location = new Point(648, 411);
-            datetextBox.Name = "datetextBox";
-            datetextBox.Size = new Size(125, 27);
-            datetextBox.TabIndex = 12;
-            // 
             // edateTimePicker
             // 
             edateTimePicker.Location = new Point(399, 174);
@@ -149,13 +142,23 @@
             edateTimePicker.Size = new Size(250, 27);
             edateTimePicker.TabIndex = 13;
             // 
+            // BackTobutton
+            // 
+            BackTobutton.Location = new Point(510, 362);
+            BackTobutton.Name = "BackTobutton";
+            BackTobutton.Size = new Size(129, 29);
+            BackTobutton.TabIndex = 14;
+            BackTobutton.Text = "Back To Menu";
+            BackTobutton.UseVisualStyleBackColor = true;
+            BackTobutton.Click += BackTobutton_Click;
+            // 
             // AdditemForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(BackTobutton);
             Controls.Add(edateTimePicker);
-            Controls.Add(datetextBox);
             Controls.Add(label6);
             Controls.Add(addevntbutton);
             Controls.Add(edestextBox);
@@ -186,7 +189,7 @@
         private TextBox edestextBox;
         private Button addevntbutton;
         private Label label6;
-        private TextBox datetextBox;
         private DateTimePicker edateTimePicker;
+        private Button BackTobutton;
     }
 }

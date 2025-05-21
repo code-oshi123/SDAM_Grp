@@ -63,6 +63,7 @@
             linkLabel2.TabIndex = 2;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "2.View Events";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // linkLabel3
             // 
@@ -73,6 +74,7 @@
             linkLabel3.TabIndex = 3;
             linkLabel3.TabStop = true;
             linkLabel3.Text = "3.Delete Event";
+            linkLabel3.LinkClicked += linkLabel3_LinkClicked;
             // 
             // MenuForm
             // 
