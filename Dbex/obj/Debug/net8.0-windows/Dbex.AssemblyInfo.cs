@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dbex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea5b904c45d24127b16af767aceeafbbb97e86d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3017c57d7e9729901ab1c97b8fed1c4db1d2cd06")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dbex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dbex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

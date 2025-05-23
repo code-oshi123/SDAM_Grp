@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\eventconclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:eventconclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +15,76 @@
       "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\organizermenueventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:organizermenueventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\organizermenueventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:organizermenueventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\eventconclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:eventconclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:vieweventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\viewfeedbackform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:viewfeedbackform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\viewfeedbackform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:viewfeedbackform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\reviewconclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:reviewconclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\viewreviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:viewreviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\feedbackclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:feedbackclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:additemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\eventclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:eventclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\viewreviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:viewreviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:deleteeventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|c:\\users\\ushan\\onedrive\\desktop\\sdam_grp\\dbex\\eventclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|solutionrelative:eventclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A294F3C-1978-486A-9C3F-7476EB117795}|Dbex.csproj|C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -62,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,78 +110,185 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\AdminDashboardForm.cs [Design]",
+              "RelativeToolTip": "AdminDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:55:11.115Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrganizerMenuEventForm.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\OrganizerMenuEventForm.cs",
+              "RelativeDocumentMoniker": "OrganizerMenuEventForm.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\OrganizerMenuEventForm.cs",
+              "RelativeToolTip": "OrganizerMenuEventForm.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAASwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:52:11.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrganizerMenuEventForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\OrganizerMenuEventForm.cs",
+              "RelativeDocumentMoniker": "OrganizerMenuEventForm.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\OrganizerMenuEventForm.cs [Design]",
+              "RelativeToolTip": "OrganizerMenuEventForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:47:28.335Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewFeedbackForm.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewFeedbackForm.cs",
+              "RelativeDocumentMoniker": "ViewFeedbackForm.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewFeedbackForm.cs",
+              "RelativeToolTip": "ViewFeedbackForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA+wBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:25:52.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ViewFeedbackForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewFeedbackForm.cs",
+              "RelativeDocumentMoniker": "ViewFeedbackForm.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewFeedbackForm.cs [Design]",
+              "RelativeToolTip": "ViewFeedbackForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:22:06.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FeedbackClass.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\FeedbackClass.cs",
+              "RelativeDocumentMoniker": "FeedbackClass.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\FeedbackClass.cs",
+              "RelativeToolTip": "FeedbackClass.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:38:31.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReviewConClass.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ReviewConClass.cs",
+              "RelativeDocumentMoniker": "ReviewConClass.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ReviewConClass.cs",
+              "RelativeToolTip": "ReviewConClass.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwEEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:21:04.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewReviewForm.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewReviewForm.cs",
+              "RelativeDocumentMoniker": "ViewReviewForm.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewReviewForm.cs",
+              "RelativeToolTip": "ViewReviewForm.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:08:48.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewReviewForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewReviewForm.cs",
+              "RelativeDocumentMoniker": "ViewReviewForm.cs",
+              "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewReviewForm.cs [Design]",
+              "RelativeToolTip": "ViewReviewForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:03:00.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ViewEventForm.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewEventForm.cs",
               "RelativeDocumentMoniker": "ViewEventForm.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewEventForm.cs",
               "RelativeToolTip": "ViewEventForm.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAADgvy4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAEwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T10:54:21.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ViewEventForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewEventForm.cs",
               "RelativeDocumentMoniker": "ViewEventForm.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\ViewEventForm.cs [Design]",
               "RelativeToolTip": "ViewEventForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T08:53:17.197Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-21T08:53:17.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "DeleteEventForm.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\DeleteEventForm.cs",
               "RelativeDocumentMoniker": "DeleteEventForm.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\DeleteEventForm.cs",
               "RelativeToolTip": "DeleteEventForm.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T08:29:37.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "DeleteEventForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\DeleteEventForm.cs",
               "RelativeDocumentMoniker": "DeleteEventForm.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\DeleteEventForm.cs [Design]",
               "RelativeToolTip": "DeleteEventForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T08:23:48.99Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-21T08:23:48.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "AdditemForm.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\AdditemForm.cs",
               "RelativeDocumentMoniker": "AdditemForm.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\AdditemForm.cs",
               "RelativeToolTip": "AdditemForm.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA+wBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T03:09:01.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "AdditemForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\AdditemForm.cs",
               "RelativeDocumentMoniker": "AdditemForm.cs",
@@ -156,44 +299,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MenuForm.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\MenuForm.cs",
               "RelativeDocumentMoniker": "MenuForm.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\MenuForm.cs",
               "RelativeToolTip": "MenuForm.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAvwCMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAASwDIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T03:01:05.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "MenuForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\MenuForm.cs",
               "RelativeDocumentMoniker": "MenuForm.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\MenuForm.cs [Design]",
               "RelativeToolTip": "MenuForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T02:51:47.094Z"
+              "WhenOpened": "2025-05-21T02:51:47.094Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EventconClass.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\EventconClass.cs",
               "RelativeDocumentMoniker": "EventconClass.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\EventconClass.cs",
               "RelativeToolTip": "EventconClass.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAiwIYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T02:48:15.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "EventClass.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\EventClass.cs",
               "RelativeDocumentMoniker": "EventClass.cs",
@@ -205,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -217,20 +361,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwDsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAMwCsAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T06:16:48.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ushan\\OneDrive\\Desktop\\SDAM_Grp\\Dbex\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

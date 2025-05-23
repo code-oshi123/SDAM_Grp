@@ -36,7 +36,6 @@ namespace Dbex
             // Clear and populate ListBox
             ViewEventlistBox.Items.Clear();
             ViewEventlistBox.Items.AddRange(items.ToArray());
-
             MessageBox.Show($"Loaded {items.Count} items");
         }
 

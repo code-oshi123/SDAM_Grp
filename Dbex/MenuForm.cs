@@ -37,5 +37,20 @@ namespace Dbex
             viewform.Show();
             this.Hide();
         }
+
+        private void Viewfeedbacklabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ViewFeedbackForm viewfeed = new ViewFeedbackForm();
+            viewfeed.Show();
+            this.Hide();
+        }
+
+        private void admindashboardlinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            AdminDashboardForm viewdash = new AdminDashboardForm();
+            viewdash.Show();
+            this.Hide();
+        }
     }
 }

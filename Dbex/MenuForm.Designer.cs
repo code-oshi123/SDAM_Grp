@@ -32,12 +32,14 @@
             linkLabel1 = new LinkLabel();
             linkLabel2 = new LinkLabel();
             linkLabel3 = new LinkLabel();
+            Viewfeedbacklabel = new LinkLabel();
+            admindashboardlinkLabel = new LinkLabel();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(303, 55);
+            label1.Location = new Point(303, 73);
             label1.Name = "label1";
             label1.Size = new Size(135, 20);
             label1.TabIndex = 0;
@@ -76,11 +78,35 @@
             linkLabel3.Text = "3.Delete Event";
             linkLabel3.LinkClicked += linkLabel3_LinkClicked;
             // 
+            // Viewfeedbacklabel
+            // 
+            Viewfeedbacklabel.AutoSize = true;
+            Viewfeedbacklabel.Location = new Point(304, 280);
+            Viewfeedbacklabel.Name = "Viewfeedbacklabel";
+            Viewfeedbacklabel.Size = new Size(119, 20);
+            Viewfeedbacklabel.TabIndex = 4;
+            Viewfeedbacklabel.TabStop = true;
+            Viewfeedbacklabel.Text = "4.View FeedBack";
+            Viewfeedbacklabel.LinkClicked += Viewfeedbacklabel_LinkClicked;
+            // 
+            // admindashboardlinkLabel
+            // 
+            admindashboardlinkLabel.AutoSize = true;
+            admindashboardlinkLabel.Location = new Point(304, 334);
+            admindashboardlinkLabel.Name = "admindashboardlinkLabel";
+            admindashboardlinkLabel.Size = new Size(141, 20);
+            admindashboardlinkLabel.TabIndex = 5;
+            admindashboardlinkLabel.TabStop = true;
+            admindashboardlinkLabel.Text = "5.Admin Dashboard";
+            admindashboardlinkLabel.LinkClicked += admindashboardlinkLabel_LinkClicked;
+            // 
             // MenuForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(admindashboardlinkLabel);
+            Controls.Add(Viewfeedbacklabel);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
             Controls.Add(linkLabel1);
@@ -97,5 +123,7 @@
         private LinkLabel linkLabel1;
         private LinkLabel linkLabel2;
         private LinkLabel linkLabel3;
+        private LinkLabel Viewfeedbacklabel;
+        private LinkLabel admindashboardlinkLabel;
     }
 }

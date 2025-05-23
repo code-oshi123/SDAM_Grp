@@ -10,7 +10,7 @@ namespace Dbex
 {
     internal class EventconClass
     {
-        static string connectionString = "server=localhost;uid=root;pwd=;database=testdatabase";
+        static string connectionString = "server=localhost;uid=root;pwd=;database=test";
         static MySqlConnection conn = new MySqlConnection(connectionString);
 
         public static string AddEvent(string id ,string eventName, string eventDescription, DateTime eventDate, string eventLocation)
