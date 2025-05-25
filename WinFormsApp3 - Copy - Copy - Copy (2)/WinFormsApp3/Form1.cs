@@ -35,20 +35,23 @@ namespace WinFormsApp3
 
         private void btnAddTicket_Click(object sender, EventArgs e)
         {
-            int eventId = int.Parse(txtEventID.Text);
-            string type = txtType.Text;
-            decimal price = decimal.Parse(txtPrice.Text);
-            int availability = int.Parse(txtAvailability.Text);
+            try
+            {
+                int eventId = int.Parse(txtEventID.Text);
+                string type = txtType.Text;
+                decimal price = decimal.Parse(txtPrice.Text);
+                int availability = int.Parse(txtAvailability.Text);
 
-            ticketController.AddTicket(eventId, type, price, availability);
-            MessageBox.Show("Ticket added successfully!");
-            RefreshTicketList();
+                ticketController.AddTicket(eventId, type, price, availability);
+
+                RefreshTicketList(); // reload updated data
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
-        private void btnViewTickets_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Loading tickets...");
-            RefreshTicketList();
-        }
+
 
         private void btnUpdatePrice_Click(object sender, EventArgs e)
         {
@@ -71,21 +74,37 @@ namespace WinFormsApp3
 
         private void btnDeleteTicket_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(txtDeleteTicketID.Text, out int ticketID))
+            if (!int.TryParse(txtDeleteTicketID.Text.Trim(), out int ticketID))
             {
-                MessageBox.Show("Please enter a valid Ticket ID.");
+                MessageBox.Show("Please enter a valid Ticket ID.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            bool success = ticketController.DeleteTicket(ticketID);
+            try
+            {
+                bool success = ticketController.DeleteTicket(ticketID);
 
-            if (success)
-                MessageBox.Show("Ticket deleted successfully.");
-            else
-                MessageBox.Show("Ticket not found.");
-
-            RefreshTicketList();
+                if (success)
+                {
+                    MessageBox.Show("Ticket deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    RefreshTicketList();
+                }
+                else
+                {
+                    MessageBox.Show("Ticket not found in the database.", "Not Found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred while deleting the ticket:\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
+        private void btnViewTickets_Click(object sender, EventArgs e)
+        {
+            RefreshTicketList(); // This will display all tickets in the DataGridView
+        }
+
 
 
 

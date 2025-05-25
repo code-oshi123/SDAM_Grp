@@ -13,20 +13,32 @@ namespace WinFormsApp3.Controller
 
         public void AddTicket(int eventID, string type, decimal price, int availability)
         {
-            using (var conn = new MySqlConnection(connectionString))
+            try
             {
-                conn.Open();
-                string query = "INSERT INTO tickets (EventID, Type, Price, Availability) VALUES (@eventID, @type, @price, @availability)";
-                using (var cmd = new MySqlCommand(query, conn))
+                using (var conn = new MySqlConnection(connectionString))
                 {
-                    cmd.Parameters.AddWithValue("@eventID", eventID);
-                    cmd.Parameters.AddWithValue("@type", type);
-                    cmd.Parameters.AddWithValue("@price", price);
-                    cmd.Parameters.AddWithValue("@availability", availability);
-                    cmd.ExecuteNonQuery();
+                    conn.Open();
+                    string query = "INSERT INTO tickets (EventID, Type, Price, Availability) VALUES (@eventID, @type, @price, @availability)";
+                    using (var cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@eventID", eventID);
+                        cmd.Parameters.AddWithValue("@type", type);
+                        cmd.Parameters.AddWithValue("@price", price);
+                        cmd.Parameters.AddWithValue("@availability", availability);
+
+                        cmd.ExecuteNonQuery();
+                    }
                 }
+
+                // Optional: Show message
+                MessageBox.Show("Ticket inserted into the database successfully!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error inserting ticket: " + ex.Message);
             }
         }
+
 
         public string UpdateTicketPrice(int ticketID, decimal newPrice)
         {
@@ -54,7 +66,7 @@ namespace WinFormsApp3.Controller
             }
         }
 
-        public string DeleteTicket(int ticketID)
+        public bool DeleteTicket(int ticketID)
         {
             using (var conn = new MySqlConnection(connectionString))
             {
@@ -63,12 +75,12 @@ namespace WinFormsApp3.Controller
                 using (var cmd = new MySqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@ticketID", ticketID);
-
                     int rows = cmd.ExecuteNonQuery();
-                    return rows > 0 ? "Ticket deleted successfully." : "Ticket not found.";
+                    return rows > 0;
                 }
             }
         }
+
 
         public List<Tickets> GetAllTickets()
         {
@@ -93,8 +105,9 @@ namespace WinFormsApp3.Controller
                     }
                 }
             }
-            return ticketList;
+            return ticketList; // <- return the fresh list
         }
+
 
         public string BookTicket(int ticketID, int quantity)
         {
