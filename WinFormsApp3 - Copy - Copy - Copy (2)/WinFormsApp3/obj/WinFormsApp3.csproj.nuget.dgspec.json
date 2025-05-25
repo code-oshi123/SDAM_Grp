@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Documents\\SDAM\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\SDAM_Grp\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Documents\\SDAM\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj": {
+    "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\SDAM_Grp\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Documents\\SDAM\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\SDAM_Grp\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj",
         "projectName": "WinFormsApp3",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\SDAM\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\SDAM_Grp\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\WinFormsApp3.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Documents\\SDAM\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\SDAM_Grp\\WinFormsApp3 - Copy - Copy - Copy (2)\\WinFormsApp3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

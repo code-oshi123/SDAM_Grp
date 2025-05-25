@@ -1,74 +1,130 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WinFormsApp3.Models;
-using WinFormsApp3.Controller;
 using System.Diagnostics;
-
+using MySql.Data.MySqlClient;
+using WinFormsApp3.Models;
 
 namespace WinFormsApp3.Controller
 {
     public class TicketController
     {
-        private List<Tickets> tickets = new List<Tickets>();
-
-
+        private string connectionString = "server=localhost;user=root;password=;database=ticketdb;";
 
         public void AddTicket(int eventID, string type, decimal price, int availability)
         {
-            tickets.Add(new Tickets(eventID, type, price, availability));
+            using (var conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "INSERT INTO tickets (EventID, Type, Price, Availability) VALUES (@eventID, @type, @price, @availability)";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@eventID", eventID);
+                    cmd.Parameters.AddWithValue("@type", type);
+                    cmd.Parameters.AddWithValue("@price", price);
+                    cmd.Parameters.AddWithValue("@availability", availability);
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
 
         public string UpdateTicketPrice(int ticketID, decimal newPrice)
         {
-            var ticket = tickets.FirstOrDefault(t => t.TicketID == ticketID);
-            if (ticket == null)
+            using (var conn = new MySqlConnection(connectionString))
             {
-                Debug.WriteLine($"Ticket with ID {ticketID} not found.");
-                return "Ticket not found.";
-            }
+                conn.Open();
+                string query = "UPDATE tickets SET Price = @price WHERE TicketID = @ticketID";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@price", newPrice);
+                    cmd.Parameters.AddWithValue("@ticketID", ticketID);
 
-            ticket.Price = newPrice;
-            Debug.WriteLine($"Ticket ID {ticketID} price updated to {newPrice}");
-            return "Ticket price updated successfully.";
+                    int rows = cmd.ExecuteNonQuery();
+                    if (rows > 0)
+                    {
+                        Debug.WriteLine($"Ticket ID {ticketID} price updated to {newPrice}");
+                        return "Ticket price updated successfully.";
+                    }
+                    else
+                    {
+                        Debug.WriteLine($"Ticket with ID {ticketID} not found.");
+                        return "Ticket not found.";
+                    }
+                }
+            }
         }
 
-
-        public bool DeleteTicket(int ticketID)
+        public string DeleteTicket(int ticketID)
         {
-            var ticket = tickets.FirstOrDefault(t => t.TicketID == ticketID);
-            if (ticket != null)
+            using (var conn = new MySqlConnection(connectionString))
             {
-                tickets.Remove(ticket);
-                return true;
-            }
-            return false;
-        }
+                conn.Open();
+                string query = "DELETE FROM tickets WHERE TicketID = @ticketID";
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@ticketID", ticketID);
 
+                    int rows = cmd.ExecuteNonQuery();
+                    return rows > 0 ? "Ticket deleted successfully." : "Ticket not found.";
+                }
+            }
+        }
 
         public List<Tickets> GetAllTickets()
         {
-            return tickets;
+            List<Tickets> ticketList = new List<Tickets>();
+            using (var conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT * FROM tickets";
+                using (var cmd = new MySqlCommand(query, conn))
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        ticketList.Add(new Tickets
+                        {
+                            TicketID = reader.GetInt32("TicketID"),
+                            EventID = reader.GetInt32("EventID"),
+                            Type = reader.GetString("Type"),
+                            Price = reader.GetDecimal("Price"),
+                            Availability = reader.GetInt32("Availability")
+                        });
+                    }
+                }
+            }
+            return ticketList;
         }
 
         public string BookTicket(int ticketID, int quantity)
         {
-            var ticket = tickets.FirstOrDefault(t => t.TicketID == ticketID);
-            if (ticket != null)
+            using (var conn = new MySqlConnection(connectionString))
             {
-                if (ticket.Availability >= quantity)
+                conn.Open();
+
+                string selectQuery = "SELECT Availability FROM tickets WHERE TicketID = @ticketID";
+                using (var selectCmd = new MySqlCommand(selectQuery, conn))
                 {
-                    ticket.Availability -= quantity;
-                    return "Ticket(s) booked successfully.";
-                }
-                else
-                {
-                    return "Not enough tickets available.";
+                    selectCmd.Parameters.AddWithValue("@ticketID", ticketID);
+                    object result = selectCmd.ExecuteScalar();
+
+                    if (result == null)
+                        return "Ticket not found.";
+
+                    int currentAvailability = Convert.ToInt32(result);
+                    if (currentAvailability < quantity)
+                        return "Not enough tickets available.";
+
+                    string updateQuery = "UPDATE tickets SET Availability = Availability - @quantity WHERE TicketID = @ticketID";
+                    using (var updateCmd = new MySqlCommand(updateQuery, conn))
+                    {
+                        updateCmd.Parameters.AddWithValue("@quantity", quantity);
+                        updateCmd.Parameters.AddWithValue("@ticketID", ticketID);
+                        updateCmd.ExecuteNonQuery();
+                        return "Ticket(s) booked successfully.";
+                    }
                 }
             }
-            return "Ticket not found.";
         }
     }
 }
